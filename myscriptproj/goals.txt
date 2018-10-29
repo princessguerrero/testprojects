@@ -3,4 +3,6 @@ My daily goals
 2. make a readme about the project
 3. do a leet code problem
 4. start lms topic
+5. finish readme
+6. learn python
 
