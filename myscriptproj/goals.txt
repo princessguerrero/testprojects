@@ -1,4 +1,4 @@
-goals
+My daily goals
 1. finish project
 2. make a readme about the project
 3. do a leet code problem
