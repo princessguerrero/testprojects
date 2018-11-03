@@ -27,3 +27,15 @@ class Rectangle(Shapes):
     
     def perimeter(self):
         return 2*self.length + 2*self.width
+
+class Diamond(Shapes):
+    def __init__(self, length, altitude):
+        self.length = length
+        self.altitude = altitude
+        
+    def area(self):
+        return self.length * self.altitude
+    
+    def perimeter(self):
+        return 4*self.length
+
