@@ -52,3 +52,15 @@ class Triangle(Shapes):
     
     def perimeter(self):
         return self.side_a + self.side_b + self.side_c
+
+import math
+class Circle(Shapes):
+    def __init__(self, pi, r):
+        self.pi = pi
+        self.r = r
+        
+    def area(self):
+        return self.pi*(math.pow(self.r, 2))
+    
+    def perimeter(self):
+        return 2*self.pi*self.r
