@@ -13,3 +13,6 @@ class Shapes:
     
     def num_of_sides(self):
         return 4
+
+class Square(Shapes):
+    pass
