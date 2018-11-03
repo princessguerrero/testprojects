@@ -39,3 +39,16 @@ class Diamond(Shapes):
     def perimeter(self):
         return 4*self.length
 
+class Triangle(Shapes):
+    def __init__(self, height, side_a, side_b, side_c):
+        self.side_a = side_a
+        self.side_b = side_b
+#         where side_b is the base
+        self.side_c = side_c
+        self.height = height
+        
+    def area(self):
+        return (self.side_b*self.height)/2
+    
+    def perimeter(self):
+        return self.side_a + self.side_b + self.side_c
